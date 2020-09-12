@@ -10,7 +10,7 @@ class Home extends Component {
 
                     <div><h2>Welcome Back</h2></div>
                     <div>Please sign in Your account</div>
-                     
+                     <div className="flex-box">
                     <select className="countryCode" name="countryCode" id="">
 	<option data-countryCode="GB" value="44" Selected>UK (+44)</option>
 	<option data-countryCode="US" value="1">USA (+1)</option>
@@ -231,6 +231,8 @@ class Home extends Component {
 		<option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
 	</optgroup>
 </select>
+<input type=""  placeholder="Phone Number"/>
+</div>
 
            <div className="charge"><p>We will send you one time sms message charges may apply</p></div>
           <button className="btn">Sign in with OTP </button>

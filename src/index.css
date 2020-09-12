@@ -41,11 +41,17 @@ code {
 .countryCode{
   position: absolute;
   top: 50%;
-  width: 15%;
+  width: 3%;
   height: 5%;
 }
 
 .charge{
   color: grey;
   margin-top: 10%
+}
+
+
+.flex-box{
+  display: inline-block;
+  
 }

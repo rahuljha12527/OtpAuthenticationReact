@@ -7,7 +7,8 @@ class verify extends Component {
                 <div><h2>Please verify Mobile number</h2></div>
                  
                  <div>An Otp is sent to +918750037661</div>
-                         
+
+                      
             </div>
         );
     }
